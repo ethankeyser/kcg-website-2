@@ -24,17 +24,13 @@ From this folder:
 git init -b main && git add . && git commit -m "New KCG website"
 ```
 
-Create an empty repo on github.com (name it `kcg-website`), then:
-
-```bash
-git remote add origin https://github.com/YOUR-USERNAME/kcg-website.git && git push -u origin main
-```
+Done — this repo is pushed to https://github.com/ethankeyser/kcg-website-2.
 
 ## 2. Turn on GitHub Pages
 
 In the repo: **Settings → Pages → Source: "Deploy from a branch" → Branch: `main` / `/ (root)` → Save.**
 
-It goes live in about a minute at `https://YOUR-USERNAME.github.io/kcg-website/`.
+It goes live in about a minute at `https://ethankeyser.github.io/kcg-website-2/`.
 
 ## 3. Connect the contact form (required — it does not send until you do this)
 
@@ -77,19 +73,29 @@ A hidden `_gotcha` honeypot field silently drops bot submissions.
 
 ## 4. Point k-c-g.net at it
 
-`CNAME` is already set to `www.k-c-g.net`. At your domain registrar (wherever k-c-g.net is
-managed), set:
+There is deliberately **no `CNAME` file in this repo yet.** If one is present, GitHub Pages
+treats the custom domain as primary and redirects `ethankeyser.github.io/kcg-website-2/` to
+`www.k-c-g.net` — which still serves the *old* site, so you'd never see this one. Preview
+first, cut over second.
+
+When you're ready to cut over, at your domain registrar (wherever k-c-g.net is managed), set:
 
 | Type | Name | Value |
 |---|---|---|
-| CNAME | `www` | `YOUR-USERNAME.github.io` |
+| CNAME | `www` | `ethankeyser.github.io` |
 | A | `@` | `185.199.108.153` |
 | A | `@` | `185.199.109.153` |
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
 
-Then in **Settings → Pages → Custom domain**, enter `www.k-c-g.net` and tick
-**Enforce HTTPS** once the certificate provisions (can take up to 24 hours).
+Then in **Settings → Pages → Custom domain**, enter `www.k-c-g.net` and Save — GitHub will
+recreate the `CNAME` file for you. Tick **Enforce HTTPS** once the certificate provisions
+(can take up to 24 hours).
+
+Note: once the site is on the custom domain, `404.html` is correct as written. On the
+temporary `github.io/kcg-website-2/` URL the 404 page renders unstyled, because its asset
+paths are absolute (`/assets/...`) — right for the real domain, wrong for a subpath. Not
+worth fixing for a preview.
 
 > Do this only when you're ready to cut over — it will replace the current site at that address.
 
