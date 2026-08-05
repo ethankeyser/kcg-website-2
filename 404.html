@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — KCG</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<style>
+  .nf { min-height: 100dvh; display: grid; place-items: center; text-align: center; position: relative; overflow: hidden; }
+  .nf .wrap { position: relative; }
+  .nf-code { font-family: var(--display); font-size: clamp(4rem, 16vw, 9rem); line-height: 1; letter-spacing: -.05em; }
+  .nf p { color: var(--muted); margin: 18px auto 32px; max-width: 46ch; }
+  .nf .hero-bg { position: absolute; inset: 0; }
+</style>
+</head>
+<body>
+  <main class="nf">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glow glow-a"></div>
+      <div class="glow glow-b"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="wrap">
+      <a class="brand" href="/" style="margin-bottom:26px" aria-label="KCG LLC — home">
+        <img class="brand-lockup" src="/assets/img/kcg-logo-light.png" width="454" height="150"
+             alt="KCG LLC — Video Solutions, Virtual Communications">
+      </a>
+      <h1 class="nf-code grad">404</h1>
+      <p>That page doesn't exist. The room, however, is still available &mdash; head back and tell us what you're building.</p>
+      <div class="hero-actions" style="justify-content:center">
+        <a class="btn btn-primary" href="/">Back to home</a>
+        <a class="btn btn-ghost" href="/#contact">Start a project</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

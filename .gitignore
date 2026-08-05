@@ -1,0 +1,9 @@
+# Local scratch / test artifacts
+_test*.html
+
+# OS + editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
