@@ -1,0 +1,210 @@
+[
+ {
+  "slug": "visitation-booth",
+  "cat": "secure",
+  "title": "Video visitation station",
+  "cap": "Inmate-side visitation terminal set into a block-wall alcove, with handset and fixed seating.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "visitation-enclosure",
+  "cat": "secure",
+  "title": "Hardened steel enclosure",
+  "cap": "Fabricated enclosure housing the display, camera, speakers and handset \u2014 serviceable from the front.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "auditorium-wide",
+  "cat": "large",
+  "title": "Auditorium large-format",
+  "cap": "Large-format display flown beside the stage, with control at the cabinet run below.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "auditorium-detail",
+  "cat": "large",
+  "title": "Structural mount detail",
+  "cap": "Rear structure and mount for the auditorium display, sized to the wall and the sightlines.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "large-format-stand",
+  "cat": "large",
+  "title": "Large-format on rolling stand",
+  "cap": "Oversized panel on a mobile base for rooms that need to reconfigure between events.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "viewsonic-lobby",
+  "cat": "large",
+  "title": "ViewSonic interactive panel",
+  "cap": "Interactive panel in an open work area \u2014 scale shown against a standing figure.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "interactive-stone",
+  "cat": "large",
+  "title": "Interactive display, stone wall",
+  "cap": "Interactive panel mounted to a finished stone feature wall with concealed cabling.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "dual-display-room",
+  "cat": "collab",
+  "title": "Dual-display conference room",
+  "cap": "Two displays on a single wall so far-end video and shared content each get a full screen.",
+  "w": 800,
+  "h": 370
+ },
+ {
+  "slug": "training-room",
+  "cat": "collab",
+  "title": "Training room",
+  "cap": "Wall-mounted display with an integrated video bar above, serving a full classroom layout.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "huddle-soundbar-01",
+  "cat": "collab",
+  "title": "Huddle space",
+  "cap": "Display with soundbar and camera, set into a partitioned office floor.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "huddle-soundbar-02",
+  "cat": "collab",
+  "title": "Huddle space, wide",
+  "cap": "The same room from the entry \u2014 cabling dressed to the outlet, no exposed runs.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "mobile-cart-01",
+  "cat": "collab",
+  "title": "Mobile conferencing cart",
+  "cap": "Display and video bar on a rolling stand, ready for a room without permanent infrastructure.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "mobile-cart-02",
+  "cat": "collab",
+  "title": "Cart, front elevation",
+  "cap": "Same cart squared up \u2014 shelf for the codec, cable management down the column.",
+  "w": 600,
+  "h": 800
+ },
+ {
+  "slug": "executive-cart",
+  "cat": "collab",
+  "title": "Executive mobile unit",
+  "cap": "Large display and PTZ camera on a mobile base in a window-lined corner office.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "zoom-room-01",
+  "cat": "collab",
+  "title": "Zoom Room",
+  "cap": "Wall display running Zoom Rooms, positioned for the existing table geometry.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "zoom-room-02",
+  "cat": "collab",
+  "title": "Zoom Room, seated view",
+  "cap": "The same room from a participant seat \u2014 what the far end actually frames.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "boardroom-credenza",
+  "cat": "collab",
+  "title": "Conference room",
+  "cap": "Display and camera above a credenza, flanked by interior glazing.",
+  "w": 800,
+  "h": 800
+ },
+ {
+  "slug": "zoom-room-03",
+  "cat": "collab",
+  "title": "Meeting room",
+  "cap": "Compact room with display and ceiling-mounted camera on the opposing wall.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "touch-panel-room",
+  "cat": "collab",
+  "title": "Touch-panel control",
+  "cap": "Room control on the credenza \u2014 one panel to start, join, and share.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "cart-room",
+  "cat": "collab",
+  "title": "Cart-based room",
+  "cap": "Rolling display serving a conference table without permanent wall penetrations.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "lobby-cart",
+  "cat": "collab",
+  "title": "Mobile display, glazed bay",
+  "cap": "Display on a mobile lift base in a daylight-heavy meeting bay.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "meeting-room-01",
+  "cat": "collab",
+  "title": "Meeting room",
+  "cap": "Display and video bar sized to a six-person table.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "meeting-room-02",
+  "cat": "collab",
+  "title": "Board room",
+  "cap": "Longer table, same standards-based layout \u2014 one design scaled to a bigger room.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "meeting-room-03",
+  "cat": "collab",
+  "title": "Conference room",
+  "cap": "Display with video bar above, control on the table surface.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "accent-wall-room",
+  "cat": "collab",
+  "title": "Display on accent wall",
+  "cap": "Panel centred on a painted accent wall with the console kept low and clear.",
+  "w": 370,
+  "h": 800
+ },
+ {
+  "slug": "green-room",
+  "cat": "collab",
+  "title": "Meeting room",
+  "cap": "Display and soundbar on a colour-blocked wall, mounted to clear the table edge.",
+  "w": 370,
+  "h": 800
+ }
+]
