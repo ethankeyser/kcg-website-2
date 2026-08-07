@@ -24,14 +24,6 @@
   "h": 800
  },
  {
-  "slug": "auditorium-detail",
-  "cat": "large",
-  "title": "Structural mount detail",
-  "cap": "Rear structure and mount for the auditorium display, sized to the wall and the sightlines.",
-  "w": 800,
-  "h": 800
- },
- {
   "slug": "large-format-stand",
   "cat": "large",
   "title": "Large-format on rolling stand",
@@ -80,26 +72,10 @@
   "h": 800
  },
  {
-  "slug": "huddle-soundbar-02",
-  "cat": "collab",
-  "title": "Huddle space, wide",
-  "cap": "The same room from the entry \u2014 cabling dressed to the outlet, no exposed runs.",
-  "w": 600,
-  "h": 800
- },
- {
   "slug": "mobile-cart-01",
   "cat": "collab",
   "title": "Mobile conferencing cart",
   "cap": "Display and video bar on a rolling stand, ready for a room without permanent infrastructure.",
-  "w": 600,
-  "h": 800
- },
- {
-  "slug": "mobile-cart-02",
-  "cat": "collab",
-  "title": "Cart, front elevation",
-  "cap": "Same cart squared up \u2014 shelf for the codec, cable management down the column.",
   "w": 600,
   "h": 800
  },
@@ -116,14 +92,6 @@
   "cat": "collab",
   "title": "Zoom Room",
   "cap": "Wall display running Zoom Rooms, positioned for the existing table geometry.",
-  "w": 800,
-  "h": 800
- },
- {
-  "slug": "zoom-room-02",
-  "cat": "collab",
-  "title": "Zoom Room, seated view",
-  "cap": "The same room from a participant seat \u2014 what the far end actually frames.",
   "w": 800,
   "h": 800
  },

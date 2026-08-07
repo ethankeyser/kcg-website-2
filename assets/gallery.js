@@ -21,6 +21,11 @@
     visible = [];
     items.forEach(function (el) {
       var match = cat === 'all' || el.getAttribute('data-cat') === cat;
+      /* Drive the hide from an inline style, not from `hidden` alone: the
+         tile carries an author `display`, which outranks the UA sheet's
+         [hidden] rule, so the attribute on its own hides nothing. Inline
+         style also survives a stale or unloaded stylesheet. */
+      el.style.display = match ? '' : 'none';
       el.hidden = !match;
       if (match) visible.push(el);
     });
